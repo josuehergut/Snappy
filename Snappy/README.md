@@ -1,10 +1,10 @@
-<h1>Syncrhonize</h1>
+<h1>Snappy</h1>
 Es un framework desarrollado para hacer consultas MySQL para PHP.
 
 <h1>Instalación</h1>
 <pre>
-	include 'Async.class.php';
-	use Async/query;
+	include 'Snappy.php';
+	use Snappy/query;
 	$var = new query(-url_db, -user, -pass, -db_name);
 </pre>
 <h1>to()</h1>
